@@ -1,0 +1,30 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "getTommy"
+theme = "hugo-tania"
+paginate = 6
+
+[params]
+  titleEmoji = "😎"
+  [params.socialOptions]
+    github = "https://github.com/tommydittberner"
+    twitter = "https://twitter.com/TommyDittberner"
+    email = "todi@tuta.io"
+    youtube = "https://youtube.com/kimahrey"
+
+#[[menu.header]]
+#name = "Blog"
+#url = "/blog/"
+
+[[menu.footer]]
+name = "RSS"
+url = "/index.xml"
+
+[markup.highlight]
+noClasses = false
+lineNos = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+
