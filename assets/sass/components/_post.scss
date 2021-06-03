@@ -103,7 +103,7 @@ header {
                 box-shadow: none;
                 transition: none;
 
-                .icon {
+                .live {
                     visibility: hidden;
                 }
             }
@@ -111,7 +111,7 @@ header {
             &:hover {
                 .anchor {
                     box-shadow: none;
-                    .icon {
+                    .live {
                         visibility: visible;
                     }
                 }

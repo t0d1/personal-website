@@ -16,7 +16,8 @@ This is some content, lol.
 
 ## This is a smaller subtitle
 
-#### Code block with Hugo's internal highlight shortcode
+This is just some filler text to test the responsiveness and stuff like that. Colors are also somewhat important to me.
+
 {{< highlight html >}}
 <!doctype html>
 <html lang="en">
@@ -42,3 +43,15 @@ renderAnchor = function () {
     }
 }();
 {{< /highlight >}}
+
+
+Hallo das ist ein Test **das ist fett** *italic* 
+
+#das ist eine Überschrift
+
+``hier kommt cede hin``
+
+- das ist ein bullet point
+1. bla 
+2. bla
+

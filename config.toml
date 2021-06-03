@@ -1,20 +1,25 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "getTommy"
-theme = "hugo-tania"
+title = "Tommy Dittberner"
 paginate = 6
 
 [params]
-  titleEmoji = "😎"
+#  titleEmoji = "👋"
   [params.socialOptions]
     github = "https://github.com/tommydittberner"
     twitter = "https://twitter.com/TommyDittberner"
     email = "todi@tuta.io"
     youtube = "https://youtube.com/kimahrey"
 
-#[[menu.header]]
-#name = "Blog"
-#url = "/blog/"
+[[menu.header]]
+name = "About"
+url = "/about/"
+weight = 100
+
+[[menu.header]]
+name = "Topics"
+url = "/blog/" #todo: create topic page
+weight = 10
 
 [[menu.footer]]
 name = "RSS"

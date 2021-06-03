@@ -2,27 +2,23 @@
 
 <div class="container">
     <section class="my">
-        <div class="content">
-            {{ with .Content }}
-            {{ . }}
-            {{ end }}
-            <div class="bio-social">
-                {{ range $name, $path := $.Param "socialOptions" }}
-                {{ if (and $path (ne $name "email")) }}
-                <a href="{{ $path | safeURL }}" target="_blank" rel="noreferrer" title="{{ $name }}"
-                    aria-label="{{ $name }}">
-                    {{ partial (print "svgs/social/" $name ".svg") (dict "width" 25 "height" 25) }}
-                </a>
-                {{ end }}
-                {{ if (and $path (eq $name "email")) }}
-                <a href="mailto:{{ $path | safeURL }}" target="_blank" rel="noreferrer" title="{{ $path }}"
-                    aria-label="{{ $name }}">
-                    {{ partial (print "svgs/social/" $name ".svg") (dict "width" 25 "height" 25) }}
-                </a>
-                {{ end }}
-                {{ end }}
-            </div>
-        </div>
+        {{ .Content }}
+<!--            <div class="bio-social">-->
+<!--                {{ range $name, $path := $.Param "socialOptions" }}-->
+<!--                {{ if (and $path (ne $name "email")) }}-->
+<!--                <a href="{{ $path | safeURL }}" target="_blank" rel="noreferrer" title="{{ $name }}"-->
+<!--                    aria-label="{{ $name }}">-->
+<!--                    {{ partial (print "svgs/social/" $name ".svg") (dict "width" 25 "height" 25) }}-->
+<!--                </a>-->
+<!--                {{ end }}-->
+<!--                {{ if (and $path (eq $name "email")) }}-->
+<!--                <a href="mailto:{{ $path | safeURL }}" target="_blank" rel="noreferrer" title="{{ $path }}"-->
+<!--                    aria-label="{{ $name }}">-->
+<!--                    {{ partial (print "svgs/social/" $name ".svg") (dict "width" 25 "height" 25) }}-->
+<!--                </a>-->
+<!--                {{ end }}-->
+<!--                {{ end }}-->
+<!--            </div>-->
     </section>
 </div>
 
@@ -57,13 +53,15 @@
             {{ range $projects.ByWeight }}
             <div class="project">
                 <div>
-                    <a href="{{ .Params.link }}" target="_blank" rel="noreferrer">
-                        <!-- <div class="icon">{{ .Params.icon }}</div> -->
+                    <a href="{{ .RelPermalink }}">
                         <h3>{{ .Title }}</h3>
                     </a>
                     <div class="description">{{ .Params.description }}</div>
                 </div>
                 <div class="flex">
+                    {{ if .Params.live }}
+                    <a href="{{ .Params.link }}" class="button live" target="_blank" rel="noreferrer">Live</a>
+                    {{ end }}
                     <a href="{{ .Params.repo }}" class="button" target="_blank" rel="noreferrer">Source</a>
                 </div>
             </div>

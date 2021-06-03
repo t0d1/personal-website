@@ -40,9 +40,18 @@
 
 .footer-links {
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+
+    a {
+        display: flex;
+        border: none;
+        margin: 0 0.5rem;
+
+        &:hover {
+            border: none;
+        }
+    }
 }
 
 .flex nav {

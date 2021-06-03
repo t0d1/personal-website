@@ -8,7 +8,8 @@
                     <h1>{{ .Title }}</h1>
                     <div class="post-meta">
                         <div>
-                            By {{ .Params.author }} on <time>{{ .Date.Format "January 02, 2006" }}</time>
+                            <!-- By {{ .Params.author }} on-->
+                            <time>{{ .Date.Format "January 02, 2006" }}</time>
                         </div>
                         <div class="tags">
                             {{ range (.GetTerms "tags") }}
@@ -22,7 +23,7 @@
     </article>
 
     <div class="article-post">
-    {{ .Content }}
+        {{ .Content }}
     </div>
 </div>
 
@@ -33,14 +34,14 @@
         <a rel="prev" href="{{ .RelPermalink }}" title="Previous post (older)">
             <span>Previous</span>
             {{ .Title }}
-            </a>
+        </a>
         {{ end }}
-        
+
         {{ with .NextInSection }}
         <a rel="next" href="{{ .RelPermalink }}" title="Next post (newer)">
             <span>Next</span>
             {{ .Title }}
-            </a> 
+        </a>
         {{ end }}
     </nav>
     {{ end }}
