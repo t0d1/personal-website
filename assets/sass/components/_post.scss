@@ -17,6 +17,39 @@ header {
     }
 }
 
+.toc {
+    float: right;
+    overflow: hidden;
+    width: 300px;
+    margin: 10px 0 1rem 1.5rem;
+    padding: .5rem .75rem;
+    background: var(--light-background);
+    border-radius: 8px;
+
+    ul {
+        padding: 0;
+        font-size: 1rem;
+        counter-reset: number;
+        list-style: none;
+
+        li {
+            padding: 0 0.5em;
+            color: var(--link-color);
+
+            &:before {
+                counter-increment: number;
+                content: counter(number)"\a0-\a0";
+                color: var(--medium-font-color);
+            }
+
+            &:hover {
+                border-radius: 8px;
+                background-color: var(--light-background-hover);
+            }
+        }
+    }
+}
+
 .article-header {
     padding-top: 2rem;
     margin-bottom: 0.5rem;

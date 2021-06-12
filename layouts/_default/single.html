@@ -22,10 +22,20 @@
         </header>
     </article>
 
+    {{ if gt (countwords .TableOfContents) 15 }}
+    <div class="toc">
+        <h4>Contents</h4>
+        {{ .TableOfContents }}
+    </div>
+    {{ end }}
+
     <div class="article-post">
         {{ .Content }}
     </div>
 </div>
+
+
+
 
 <div class="container">
     {{ if .Section }}

@@ -12,7 +12,7 @@
 <section>
     <div class="container">
         <div class="terms">
-            {{ range (index .Site.Taxonomies (.Title | lower)) }}
+            {{ range .Data.Terms.ByCount }}
             <a href="{{ .Page.RelPermalink }}">{{ .Page.Title }} <span class="bg-number">{{ .Count }}</span></a>
             {{ end }}
         </div>
