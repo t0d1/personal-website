@@ -4,7 +4,6 @@ date: 2021-06-05
 draft: false
 tags: [
 "keyboards",
-"downloads",
 "my setup"
 ]
 ---

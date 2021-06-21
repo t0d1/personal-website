@@ -1,2 +1,3 @@
 Hello World 👋\
-My name is Tommy and I'm a software developer located in Frankfurt, Germany!
+I'm Tommy and I explore and write (mostly) about software development and efficiency. \
+You can also find projects and demos of mine here.

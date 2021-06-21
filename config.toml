@@ -1,15 +1,15 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "Tommy Dittberner"
+title = "GetTommy"
 paginate = 6
 
 [params]
 #  titleEmoji = "👋"
   [params.socialOptions]
     github = "https://github.com/tommydittberner"
-    twitter = "https://twitter.com/TommyDittberner"
+#     twitter = "https://twitter.com/kimahrey"
     email = "todi@tuta.io"
-    youtube = "https://youtube.com/kimahrey"
+#     youtube = "https://youtube.com/kimahrey"
 
 [[menu.header]]
 name = "About"
