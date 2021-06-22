@@ -1,6 +1,6 @@
 ---
 title: "Introduction to Microfrontends"
-date: 2021-06-16T20:34:50+02:00
+date: 2021-06-22
 draft: true
 tags: [
 "tutorial",

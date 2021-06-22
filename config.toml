@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://example.org/"
 languageCode = "en-us"
 title = "GetTommy"
 paginate = 6
@@ -6,7 +6,7 @@ paginate = 6
 [params]
 #  titleEmoji = "👋"
   [params.socialOptions]
-    github = "https://github.com/tommydittberner"
+    github = "https://github.com/t0d1"
 #     twitter = "https://twitter.com/kimahrey"
     email = "todi@tuta.io"
 #     youtube = "https://youtube.com/kimahrey"

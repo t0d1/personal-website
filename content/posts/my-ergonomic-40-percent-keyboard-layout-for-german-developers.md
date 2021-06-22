@@ -1,6 +1,6 @@
 ---
 title: "My ergonomic 40% keyboard layout for German developers"
-date: 2021-06-05
+date: 2021-06-21
 draft: false
 tags: [
 "keyboards",
