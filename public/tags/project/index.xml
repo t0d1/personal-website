@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>project on getTommy()</title>
+    <link>https://example.org/tags/project/</link>
+    <description>Recent content in project on getTommy()</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 02 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>getTommy</title>
+      <link>https://example.org/projects/personal-website/</link>
+      <pubDate>Wed, 02 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/projects/personal-website/</guid>
+      <description>My personal website built using the Hugo static site generator. You&amp;rsquo;re on it right now but I though it might as well link the source code in the projects list.
+Since I don&amp;rsquo;t know much about Go I used one of the themes provided on the gohugo website called &amp;ldquo;Hugo Tania&amp;rdquo; and modified as well as simplified it to my liking. I find the Go syntax to be very confusing at times but since I only need a few basic page types it is totally worth it.</description>
+    </item>
+    
+  </channel>
+</rss>

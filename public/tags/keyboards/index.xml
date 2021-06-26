@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>keyboards on getTommy()</title>
+    <link>https://example.org/tags/keyboards/</link>
+    <description>Recent content in keyboards on getTommy()</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 21 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/tags/keyboards/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My ergonomic 40% keyboard layout for German developers</title>
+      <link>https://example.org/posts/my-ergonomic-40-percent-keyboard-layout-for-german-developers/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://example.org/posts/my-ergonomic-40-percent-keyboard-layout-for-german-developers/</guid>
+      <description>Introduction I recently bought the &amp;ldquo;Atreus&amp;rdquo; from Keyboardio after wanting to dive into customizable, ergonomic keyboards for a while. The folks from Keyboardio even provide their own plug-and-play software called Chrysalis for modifying your layout. While the software (v.0.8.4) provides some great features already, I wanted even more customization options for my layout to be more suitable for the needs of a German software developer, so I downloaded the Arduino IDE, added the &amp;ldquo;Kaleidoscope Keyboards&amp;rdquo; plugin and got to work.</description>
+    </item>
+    
+  </channel>
+</rss>

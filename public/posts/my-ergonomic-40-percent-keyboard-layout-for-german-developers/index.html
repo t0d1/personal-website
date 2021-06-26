@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="theme-color" content="dark">
+    <title> My ergonomic 40% keyboard layout for German developers | getTommy()</title>
+    
+    <link rel="icon" type="image/png" href="/icons/favicon.png" />
+    
+    <link rel="stylesheet" href="/sass/main.min.35a2145a0c3520f5820fd34421b84ea86c69a337cd0203a2270c67e3a0c4a3e7.css">
+</head>
+
+    <body>
+        <nav class="navbar">
+    <div class="container">
+        <div class="flex">
+            <div>
+                <a class="brand" href="/">
+                
+                getTommy()
+                </a>
+            </div>
+            <div class="flex">
+                
+                <a href="/tags/" >Tags</a>
+                
+                <a href="/contact/" >Contact</a>
+                
+                <button id="dark-mode-button"></button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+        <main>
+            
+
+<div class="container">
+    <article>
+        <header class="article-header">
+            <div class="thumb">
+                <div>
+                    <h1>My ergonomic 40% keyboard layout for German developers</h1>
+                    <div class="post-meta">
+                        <div>
+                            
+                            <time>June 21, 2021</time>
+                        </div>
+                        <div class="tags">
+                            
+                            <a href="/tags/keyboards/">keyboards</a>
+                            
+                            <a href="/tags/my-setup/">my setup</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </article>
+
+    
+    <div class="toc">
+        <h4>Contents</h4>
+        <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#why-the-atreus">Why the Atreus?</a></li>
+    <li><a href="#the-five-layer-system">The five layer system</a></li>
+    <li><a href="#the-qwertz-symbols-optimized-for-programming">The QWERTZ symbols optimized for programming</a></li>
+    <li><a href="#grouping-characters-and-other-useful-things-for-developers">Grouping characters and other useful things for developers</a></li>
+    <li><a href="#qukeys-are-where-the-magic-happens-umlauts--shortcuts">Qukeys are where the magic happens (Umlauts + Shortcuts)</a></li>
+    <li><a href="#the-numpad">The numpad</a></li>
+    <li><a href="#mouse-controls">Mouse Controls</a></li>
+    <li><a href="#function-keys">Function keys</a></li>
+    <li><a href="#where-to-go-from-here">Where to go from here?</a></li>
+    <li><a href="#get-the-file">Get the file</a></li>
+  </ul>
+</nav>
+    </div>
+    
+
+    <div class="article-post">
+        <h2 id="introduction">Introduction</h2>
+<p>I recently bought the <a href="https://shop.keyboard.io/products/keyboardio-atreus">&ldquo;Atreus&rdquo; from Keyboardio</a> after wanting to dive into customizable, ergonomic keyboards for a while.
+The folks from Keyboardio even provide their own plug-and-play software called <a href="https://github.com/keyboardio/Chrysalis">Chrysalis</a> for modifying your layout.
+While the software (v.0.8.4) provides some great features already, I wanted even more customization options for my layout to be more suitable for the needs of a German software developer,
+so I downloaded the <a href="https://www.arduino.cc/en/software">Arduino IDE</a>, added the &ldquo;Kaleidoscope Keyboards&rdquo; plugin and got to work.
+You can read the docs for Kaleidoscope <a href="https://kaleidoscope.readthedocs.io/en/latest/">here</a>.</p>
+<p>What I came up with is a layout on the basis of colemak-DHm that includes easy to access German Umlauts, a more convenient symbol layout,
+a num-pad, usable mouse controls, space for function keys, and it even makes common shortcuts easier to access.
+If you&rsquo;re not a fan of colemak maybe this blogpost can at least give you some ideas for your own custom layout.</p>
+<p>I provide a full copy of my layout at the bottom of this post and will try to keep it up-to-date.</p>
+<h2 id="why-the-atreus">Why the Atreus?</h2>
+<p><img src="/atreus.jpg" alt="Atreus"></p>
+<p>It&rsquo;s relatively affordable, it&rsquo;s tiny/portable, it&rsquo;s fully programmable, it&rsquo;s ortholinear and it eliminates wrist rotation by being angled and
+therefore it&rsquo;s not such a big deal that it is not split.</p>
+<p>When I first looked at ergonomic keyboards I didn&rsquo;t even know of the Atreus' existence. It was only by
+coincidence that I stumbled upon a picture of it when I was just about to give up my search for the
+perfect ergonomic keyboard. One thing the moonlander, ergodox, planck, dygma raise and most other keyboards
+have in common is that they are really expensive! And that&rsquo;s okay, since manual labor has its price and all
+but for me spending 300€+ on a keyboard felt a bit extreme and there were also import taxes to worry about.
+So finding this minimalist looking gem was a true calling and I immediately went and ordered one.
+When it arrived a few weeks later (and sooner than expected) I had already planned out most of my layout on paper
+but now it was finally time to test it out and refine it. Eventually I settled on the layout described below and I&rsquo;m
+very happy with it thus far.</p>
+<p>Since the Atreus is so different from your standard keyboard I actually find it easy to switch between layouts.
+I can comfortably type 80-90 WPM on most QWERTZ keyboards out there and when I sit at the Atreus my brain
+just switches gears and I&rsquo;m fully into colemak dhm again, typing at a steady pace of around 50 WPM at
+the point of writing this article. I still improve everyday and am looking forward to seeing where my
+upper limit will be.</p>
+<h2 id="the-five-layer-system">The five layer system</h2>
+<p>Five layers may sound like a lot, but coming from QWERTZ where having three different characters on the same key is a common occurrence
+(Normal, Shift and AltGr), it is actually pretty easy to use.</p>
+<p>The layers are the following:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-arduino" data-lang="arduino"><span class="k">enum</span> <span class="p">{</span>
+    <span class="n">BASE</span><span class="p">,</span>
+    <span class="n">SHIFT</span><span class="p">,</span>
+    <span class="n">SUB</span><span class="p">,</span>
+    <span class="n">SUPER</span><span class="p">,</span>
+    <span class="n">MOUSE</span>
+<span class="p">};</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>The BASE layer provides you with your standard alphabetic characters as well as some punctuation and quotation options.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-arduino" data-lang="arduino"><span class="p">[</span><span class="n">BASE</span><span class="p">]</span> <span class="o">=</span> <span class="n">KEYMAP_STACKED</span>
+<span class="p">(</span>
+<span class="n">Key_de_Q</span><span class="p">,</span>           <span class="n">Key_de_W</span><span class="p">,</span>       <span class="n">Key_de_F</span><span class="p">,</span>   <span class="n">Key_de_P</span><span class="p">,</span>  <span class="n">Key_de_B</span><span class="p">,</span>
+<span class="n">Key_de_A</span><span class="p">,</span>           <span class="n">Key_de_R</span><span class="p">,</span>       <span class="n">Key_de_S</span><span class="p">,</span>   <span class="n">Key_de_T</span><span class="p">,</span>  <span class="n">Key_de_G</span><span class="p">,</span>
+<span class="n">Key_de_Z</span><span class="p">,</span>           <span class="n">Key_de_X</span><span class="p">,</span>       <span class="n">Key_de_C</span><span class="p">,</span>   <span class="n">Key_de_D</span><span class="p">,</span>  <span class="n">Key_de_V</span><span class="p">,</span>        <span class="n">Key_de_Backtick</span><span class="p">,</span>
+<span class="n">Key_de_LeftControl</span><span class="p">,</span> <span class="n">Key_de_LeftGui</span><span class="p">,</span> <span class="n">Key_de_Tab</span><span class="p">,</span> <span class="n">MO</span><span class="p">(</span><span class="n">SUPER</span><span class="p">),</span> <span class="n">Key_de_Spacebar</span><span class="p">,</span> <span class="n">Key_de_Enter</span><span class="p">,</span>
+
+                  <span class="n">Key_de_J</span><span class="p">,</span>         <span class="n">Key_de_L</span><span class="p">,</span> <span class="n">Key_de_U</span><span class="p">,</span>      <span class="n">Key_de_Y</span><span class="p">,</span>      <span class="n">Key_de_Quote</span><span class="p">,</span>
+                  <span class="n">Key_de_M</span><span class="p">,</span>         <span class="n">Key_de_N</span><span class="p">,</span> <span class="n">Key_de_E</span><span class="p">,</span>      <span class="n">Key_de_I</span><span class="p">,</span>      <span class="n">Key_de_O</span><span class="p">,</span>
+    <span class="n">Key_de_Slash</span><span class="p">,</span> <span class="n">Key_de_K</span><span class="p">,</span>         <span class="n">Key_de_H</span><span class="p">,</span> <span class="n">Key_de_Comma</span><span class="p">,</span>  <span class="n">Key_de_Period</span><span class="p">,</span> <span class="n">Key_de_Minus</span><span class="p">,</span>
+    <span class="n">MO</span><span class="p">(</span><span class="n">SHIFT</span><span class="p">),</span>    <span class="n">Key_de_Backspace</span><span class="p">,</span> <span class="n">MO</span><span class="p">(</span><span class="n">SUB</span><span class="p">),</span>  <span class="n">Key_de_Delete</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span>           <span class="n">Key_de_LeftAlt</span>
+<span class="p">),</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>On the SHIFT layer you find the shifted counterparts of these characters. Pretty standard so far.
+As far as modifier-keys go there is nothing special going on. My spacebar is on the left (I&rsquo;m left-handed)
+and since I don&rsquo;t rely heavily on the escape key I put it on the SHIFT layer.</p>
+<p><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-arduino" data-lang="arduino"><span class="p">[</span><span class="n">SHIFT</span><span class="p">]</span> <span class="o">=</span> <span class="n">KEYMAP_STACKED</span>
+<span class="p">(</span>
+<span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_Q</span><span class="p">),</span>      <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_W</span><span class="p">),</span>       <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_F</span><span class="p">),</span>   <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_P</span><span class="p">),</span> <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_B</span><span class="p">),</span>
+<span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_A</span><span class="p">),</span>      <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_R</span><span class="p">),</span>       <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_S</span><span class="p">),</span>   <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_T</span><span class="p">),</span> <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_G</span><span class="p">),</span>
+<span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_Z</span><span class="p">),</span>      <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_X</span><span class="p">),</span>       <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_C</span><span class="p">),</span>   <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_D</span><span class="p">),</span> <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_V</span><span class="p">),</span>        <span class="n">Key_de_Tick</span><span class="p">,</span>
+<span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_Escape</span><span class="p">),</span> <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_LeftGui</span><span class="p">),</span> <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_Tab</span><span class="p">),</span> <span class="n">XXX</span><span class="p">,</span>              <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_Spacebar</span><span class="p">),</span> <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_Enter</span><span class="p">),</span>
+
+                      <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_J</span><span class="p">),</span>         <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_L</span><span class="p">),</span> <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_U</span><span class="p">),</span>  <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_Y</span><span class="p">),</span> <span class="n">Key_de_DoubleQuote</span><span class="p">,</span>
+                      <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_M</span><span class="p">),</span>         <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_N</span><span class="p">),</span> <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_E</span><span class="p">),</span>  <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_I</span><span class="p">),</span> <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_O</span><span class="p">),</span>
+    <span class="n">Key_de_Backslash</span><span class="p">,</span> <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_K</span><span class="p">),</span>         <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_H</span><span class="p">),</span> <span class="n">Key_de_Semicolon</span><span class="p">,</span>  <span class="n">Key_de_Colon</span><span class="p">,</span>     <span class="n">Key_de_Underscore</span><span class="p">,</span>
+    <span class="n">XXX</span><span class="p">,</span>              <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_Backspace</span><span class="p">),</span> <span class="n">XXX</span><span class="p">,</span>              <span class="n">___</span><span class="p">,</span>               <span class="n">___</span><span class="p">,</span>              <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_LeftAlt</span><span class="p">)</span>
+<span class="p">),</span></code></pre></td></tr></table>
+</div>
+</div>
+Sidenote: &ldquo;xxx&rdquo; is for dead keys, while &ldquo;___&rdquo; acts as a transparent key, meaning the key defined one (or multiple) layers below will be executed when pressed.</p>
+<h2 id="the-qwertz-symbols-optimized-for-programming">The QWERTZ symbols optimized for programming</h2>
+<p>As you could probably see, when it comes to punctuation I went a non-standard route. What I actually
+like about the QWERTZ layout is the use of the bottom right row for punctuation. For me it just makes sense
+to group comma ( , ) and semi-colon ( ; ) as well as dot ( . ) and colon ( : ) together. So I left it like that even though I use semi-colons quite a lot.
+I feel like it&rsquo;s not a big enough deal to change it, but I will show you a potential solution for this later on.
+I use hyphen ( - ) and underscore ( _ ) more than slash ( / ) and questionmark ( ? ), so I also left the German variant for the bottom right-most key.</p>
+<p>Looking at the two &ldquo;inside-keys&rdquo; of the Atreus I decided to put an inverted symbol grouping on the left, that is backtick ( ` ) shifting into a normal tick ( ´ ).
+This order makes it less of a pain for me to do my string-interpolation.
+On the ride side we have a slash ( / ) shifting into a back-slash ( \ ). You will see the pipe ( | ) in a much more &ldquo;logical&rdquo; place later on.</p>
+<p>Last but not least you have probably noticed that I have my backspace key on the right thumb&rsquo;s resting position.
+I tried having it in the upper right but I personally find it a much more useful key for the thumb to press.
+Instead I put the single-quote ( ' ) shifting into double quotes ( &quot; ) up there. For typing in English this makes it very easy to
+write things like &ldquo;we&rsquo;re&rdquo;, &ldquo;we&rsquo;ve&rdquo; and &ldquo;it&rsquo;s&rdquo;. This also minimizes pinky-finger movements.</p>
+<h2 id="grouping-characters-and-other-useful-things-for-developers">Grouping characters and other useful things for developers</h2>
+<p>Next is the SUB layer. Technically it is on top of the SHIFT layer but since the
+Atreus comes with a Super-key it felt logical to also add a SUB-layer.
+However, if you copy from this layout, you can name it whatever you want.
+You activate the layer by pressing the key to the right of where I put my backspace (the key with the keyboardio butterfly icon). It only shifts to the layer, so
+be sure to keep your thumb down. Doing a layer lock often resulted in me forgetting I was still on another layer,
+so I don&rsquo;t use layer locks at all. Again, feel free to change things to your liking.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-arduino" data-lang="arduino"><span class="p">[</span><span class="n">SUB</span><span class="p">]</span> <span class="o">=</span> <span class="n">KEYMAP_STACKED</span>
+<span class="p">(</span>
+<span class="n">Key_de_ExlamationMark</span><span class="p">,</span> <span class="n">Key_de_At</span><span class="p">,</span>        <span class="n">Key_de_Circumflex</span><span class="p">,</span>  <span class="n">Key_de_Dollar</span><span class="p">,</span>      <span class="n">Key_de_Percent</span><span class="p">,</span>
+<span class="n">Key_de_Asterisk</span><span class="p">,</span>       <span class="n">Key_de_LeftParen</span><span class="p">,</span> <span class="n">Key_de_RightParen</span><span class="p">,</span>  <span class="n">Key_de_LeftBracket</span><span class="p">,</span> <span class="n">Key_de_RightBracket</span><span class="p">,</span>
+<span class="n">XXX</span><span class="p">,</span>                   <span class="n">Key_de_LessThan</span><span class="p">,</span>  <span class="n">Key_de_GreaterThan</span><span class="p">,</span> <span class="n">Key_de_LeftCurly</span><span class="p">,</span>   <span class="n">Key_de_RightCurly</span><span class="p">,</span>   <span class="n">XXX</span><span class="p">,</span>
+<span class="n">XXX</span><span class="p">,</span>                   <span class="n">XXX</span><span class="p">,</span>              <span class="n">XXX</span><span class="p">,</span>                <span class="n">XXX</span><span class="p">,</span>                <span class="n">XXX</span><span class="p">,</span>                 <span class="n">XXX</span><span class="p">,</span>
+
+         <span class="n">Key_de_Ampersand</span><span class="p">,</span> <span class="n">Key_de_Pipe</span><span class="p">,</span> <span class="n">Key_de_Equals</span><span class="p">,</span> <span class="n">Key_de_QuestionMark</span><span class="p">,</span> <span class="n">Key_de_Circle</span><span class="p">,</span>
+         <span class="n">XXX</span><span class="p">,</span>              <span class="n">Key_de_Tilde</span><span class="p">,</span> <span class="n">Key_de_Euro</span><span class="p">,</span>   <span class="n">Key_de_Plus</span><span class="p">,</span>         <span class="n">Key_de_Minus</span><span class="p">,</span>
+    <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span>              <span class="n">Key_de_Hash</span><span class="p">,</span>  <span class="n">XXX</span><span class="p">,</span>           <span class="n">XXX</span><span class="p">,</span>                 <span class="n">XXX</span><span class="p">,</span>
+    <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span>              <span class="n">XXX</span><span class="p">,</span>          <span class="n">XXX</span><span class="p">,</span>           <span class="n">XXX</span><span class="p">,</span>                 <span class="n">XXX</span>
+<span class="p">),</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>The top left resembles the US-layout for the most part, except the hashtag ( # ) got replaced by
+the circumflex ( ^ ) and was put on H.
+Going on to the top right you have a logic operator cluster consisting of the ampersand ( &amp; ) the pipe ( | ) and the equals ( = ).
+The circle ( ° ) on the pinky is pretty useless, but sometimes you just need to complain about the temperature
+(that&rsquo;s not just a German thing, is it?).
+Below you have access to a plus ( + ) and minus ( - ) sign as well as the tilde ( ~ ) on N and the euro symbol ( € ) on E,
+because that makes them easy to remember.</p>
+<p>Going on to the interesting part which is the grouping character cluster on the left side.
+Since you activate this layer with your right thumb you now have the freedom to choose between conveniently placed
+parentheses (), brackets [], less than and greater than &lt;&gt; as well as your curly braces {} with your left hand.</p>
+<p>I did not forget the (A)sterisk ( * ).</p>
+<p>If you have the need for even more symbols there is still plenty of space left for you to experiment with.</p>
+<h2 id="qukeys-are-where-the-magic-happens-umlauts--shortcuts">Qukeys are where the magic happens (Umlauts + Shortcuts)</h2>
+<p>You&rsquo;ve probably asked yourself many times by now where your beloved &ldquo;ä, Ä, ö, Ö, ü, Ü and ß&rdquo; went.
+Well, see for yourself:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-arduino" data-lang="arduino"><span class="c1">//Qukey(layer, key_addr, alternate_key)
+</span><span class="c1"></span>
+<span class="c1">//umlaute
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span>  <span class="n">Key_de_SS</span><span class="p">),</span>           <span class="c1">// s -&gt; ß
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span>  <span class="n">Key_de_AUml</span><span class="p">),</span>         <span class="c1">// a -&gt; ä
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">SHIFT</span><span class="p">,</span> <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span>  <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_AUml</span><span class="p">)),</span> <span class="c1">// A -&gt; Ä
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">),</span> <span class="n">Key_de_OUml</span><span class="p">),</span>         <span class="c1">// o -&gt; ö
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">SHIFT</span><span class="p">,</span> <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">11</span><span class="p">),</span> <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_OUml</span><span class="p">)),</span> <span class="c1">// o -&gt; Ö
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">9</span><span class="p">),</span>  <span class="n">Key_de_UUml</span><span class="p">),</span>         <span class="c1">// u -&gt; ü
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">SHIFT</span><span class="p">,</span> <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">9</span><span class="p">),</span>  <span class="n">LSHIFT</span><span class="p">(</span><span class="n">Key_de_UUml</span><span class="p">)),</span> <span class="c1">// U -&gt; Ü
+</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>A qukey is (as far as I understood it) a reference to quantum computing, because one key can have
+multiple states, depending on the situation.
+In practice this simply means that you can hold down a key for at least some predefined amount of time
+(e.g. 250ms) and therefore trigger the defined qukey action.</p>
+<p>When I want to write about how relatively (that&rsquo;s &ldquo;verhältnismäßig&rdquo; in German) easy it is to learn this layout I would
+type &ldquo;verhaltnismasig&rdquo; and hold down my a&rsquo;s for ä&rsquo;s and the second s for ß. It&rsquo;s verhältnismäßig easy. In fact, it is actually
+the same way most German&rsquo;s are already used to typing on their smartphones!</p>
+<p>And the magic doesn&rsquo;t stop there. Since you can basically execute anything as a qukey, why not use it for
+simplifying shortcuts? Holding down C for 250ms executes Ctrl+C and when you want to paste you copied text</p>
+<p>just hold down V for ctrl+V. just hold down V for ctrl+V.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-arduino" data-lang="arduino"><span class="c1">//common special characters
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span>  <span class="n">Key_de_At</span><span class="p">),</span>           <span class="c1">// q -&gt; @
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">9</span><span class="p">),</span>  <span class="n">Key_de_Euro</span><span class="p">),</span>         <span class="c1">// e -&gt; €
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">8</span><span class="p">),</span>  <span class="n">Key_de_Tilde</span><span class="p">),</span>        <span class="c1">// n -&gt; ~
+</span><span class="c1"></span>
+<span class="c1">//layer shifts/switches
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">7</span><span class="p">),</span>  <span class="n">MO</span><span class="p">(</span><span class="n">MOUSE</span><span class="p">)),</span>           <span class="c1">// shift to mouse controls
+</span><span class="c1"></span>
+<span class="c1">//hold for &#34;ctrl+&#34; version of the key
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">),</span>  <span class="n">LCTRL</span><span class="p">(</span><span class="n">Key_de_C</span><span class="p">)),</span>     <span class="c1">// c copy
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">),</span>  <span class="n">LCTRL</span><span class="p">(</span><span class="n">Key_de_V</span><span class="p">)),</span>     <span class="c1">// v paste
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>  <span class="n">LCTRL</span><span class="p">(</span><span class="n">Key_de_X</span><span class="p">)),</span>     <span class="c1">// x cut
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">0</span><span class="p">),</span>  <span class="n">LCTRL</span><span class="p">(</span><span class="n">Key_de_Z</span><span class="p">)),</span>     <span class="c1">// z undo
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">),</span> <span class="n">LCTRL</span><span class="p">(</span><span class="n">Key_de_Y</span><span class="p">)),</span>     <span class="c1">// y redo
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">3</span><span class="p">),</span>  <span class="n">LCTRL</span><span class="p">(</span><span class="n">Key_de_F</span><span class="p">)),</span>     <span class="c1">// f find
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">8</span><span class="p">),</span>  <span class="n">LCTRL</span><span class="p">(</span><span class="n">Key_de_L</span><span class="p">)),</span>     <span class="c1">// l select address bar
+</span><span class="c1"></span><span class="n">kaleidoscope</span><span class="o">::</span><span class="n">plugin</span><span class="o">::</span><span class="n">Qukey</span><span class="p">(</span><span class="n">BASE</span><span class="p">,</span>  <span class="n">KeyAddr</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">1</span><span class="p">),</span>  <span class="n">LCTRL</span><span class="p">(</span><span class="n">Key_de_R</span><span class="p">)),</span>     <span class="c1">// r reload page
+</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Since I promised you a way to more easily acces the semi-colon ( ; ), why not put it on color ( , ) and add a
+Qukey action? Or, if you don&rsquo;t like that, how about adding a <a href="https://kaleidoscope.readthedocs.io/en/latest/plugins/Kaleidoscope-TapDance.html">tap-dance</a>
+key where you execute colon ( , ) on a
+single press and when you double press the key it is instead executed as semi-colon ( ; )? The are many
+possible ways to modify things to your liking.</p>
+<h2 id="the-numpad">The numpad</h2>
+<p>Now that we&rsquo;ve covered the German alphabet and your most used symbols, we can take a look at the SUPER layer,
+because we&rsquo;re still missing some components from your standard full-size keyboard.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-arduino" data-lang="arduino"><span class="p">[</span><span class="n">SUPER</span><span class="p">]</span> <span class="o">=</span> <span class="n">KEYMAP_STACKED</span>
+<span class="p">(</span>
+<span class="n">Key_de_Insert</span><span class="p">,</span>      <span class="n">Key_de_Home</span><span class="p">,</span>      <span class="n">Key_de_UpArrow</span><span class="p">,</span>   <span class="n">Key_de_End</span><span class="p">,</span>        <span class="n">Key_de_PageUp</span><span class="p">,</span>
+<span class="n">Key_de_Delete</span><span class="p">,</span>      <span class="n">Key_de_LeftArrow</span><span class="p">,</span> <span class="n">Key_de_DownArrow</span><span class="p">,</span> <span class="n">Key_de_RightArrow</span><span class="p">,</span> <span class="n">Key_de_PageDown</span><span class="p">,</span>
+<span class="n">Key_de_PrintScreen</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span>              <span class="n">Key_de_VolumeUp</span><span class="p">,</span>  <span class="n">Key_de_VolumeDown</span><span class="p">,</span> <span class="n">Key_de_Mute</span><span class="p">,</span>     <span class="n">XXX</span><span class="p">,</span>
+<span class="n">XXX</span><span class="p">,</span>                <span class="n">XXX</span><span class="p">,</span>              <span class="n">XXX</span><span class="p">,</span>              <span class="n">XXX</span><span class="p">,</span>               <span class="n">XXX</span><span class="p">,</span>             <span class="n">XXX</span><span class="p">,</span>
+
+         <span class="n">Key_de_Backspace</span><span class="p">,</span> <span class="n">Key_7</span><span class="p">,</span>        <span class="n">Key_8</span><span class="p">,</span> <span class="n">Key_9</span><span class="p">,</span>        <span class="n">Key_de_Asterisk</span><span class="p">,</span>
+         <span class="n">XXX</span><span class="p">,</span>              <span class="n">Key_4</span><span class="p">,</span>        <span class="n">Key_5</span><span class="p">,</span> <span class="n">Key_6</span><span class="p">,</span>        <span class="n">Key_de_Minus</span><span class="p">,</span>
+    <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span>              <span class="n">Key_1</span><span class="p">,</span>        <span class="n">Key_2</span><span class="p">,</span> <span class="n">Key_3</span><span class="p">,</span>        <span class="n">Key_de_Plus</span><span class="p">,</span>
+    <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span>              <span class="n">Key_de_Slash</span><span class="p">,</span> <span class="n">Key_0</span><span class="p">,</span> <span class="n">Key_de_Comma</span><span class="p">,</span> <span class="n">Key_de_Enter</span>
+<span class="p">),</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>You can access the SUPER layer by pressing (and holding down) the key to the left of the space key.
+This layer allows you to use your arrow keys on the right hand (using &ldquo;FRST&rdquo;, acting like &ldquo;WASD&rdquo; does on QWERTZ/QWERTY)
+as well as your number keys on the left hand.</p>
+<p>I&rsquo;ve also added the six keys from the little block that is usually above your arrow keys on a full sized keyboard.
+I only really use the delete key (which I&rsquo;ve already added to my BASE layer) but if you need them, they are there.</p>
+<p>Personally, I&rsquo;ve always disliked the number row for typing numbers and always found it easier to just use the numpad instead.
+That&rsquo;s why I was very happy too see that it was possible to move my beloved numpad to my right hand, so I won&rsquo;t have to lift my fingers.
+The only downside is, that you have to hold down the SUPER key with your left thumb, but that&rsquo;s totally worth it for me.</p>
+<h2 id="mouse-controls">Mouse Controls</h2>
+<p>I&rsquo;ll be honest. I like to use my mouse. Maybe because it&rsquo;s a nice mouse that cost a lot of money or maybe it&rsquo;s because I used to play a lot of <a href="https://osu.ppy.sh/home">osu!</a>
+when I was younger, which drastically improved my mouse precision and speed&hellip; but sometimes it would be nice to not have to lift your right hand from the keyboard.
+With this layout, you can now do that! Holding down &ldquo;M&rdquo; (for &ldquo;mouse&rdquo; - but if you don&rsquo;t need your tilde ( ~ ) on N
+you can put it there to have it directly on your right pointer finger) you access the MOUSE layer - again by shifting, not toggling -
+and this gives you access to some nice functionality.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-arduino" data-lang="arduino"><span class="p">[</span><span class="n">MOUSE</span><span class="p">]</span> <span class="o">=</span> <span class="n">KEYMAP_STACKED</span>
+<span class="p">(</span>
+<span class="n">XXX</span><span class="p">,</span> <span class="n">Key_mouseBtnP</span><span class="p">,</span> <span class="n">Key_mouseUp</span><span class="p">,</span> <span class="n">Key_mouseBtnN</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span>
+<span class="n">XXX</span><span class="p">,</span> <span class="n">Key_mouseL</span><span class="p">,</span> <span class="n">Key_mouseDn</span><span class="p">,</span> <span class="n">Key_mouseR</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span>
+<span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span>
+<span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">Key_mouseBtnL</span><span class="p">,</span> <span class="n">Key_mouseScrollUp</span><span class="p">,</span> <span class="n">Key_mouseScrollL</span><span class="p">,</span>
+
+         <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span>
+         <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span>
+    <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span>
+    <span class="n">Key_mouseScrollR</span><span class="p">,</span> <span class="n">Key_mouseScrollDn</span><span class="p">,</span> <span class="n">Key_mouseBtnR</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span><span class="p">,</span> <span class="n">XXX</span>
+<span class="p">)</span></code></pre></td></tr></table>
+</div>
+</div>
+<p>Your thumb now acts as your scroll wheel (vertical and horizontal) as well as your left and right mouse buttons.
+That is honestly the most useful thing about this layer. If you really don&rsquo;t want to lift your fingers you also can move
+your mouse pointer using &ldquo;FRST&rdquo; and also navigate back and forth between web-pages using W and P respectively.</p>
+<p>In the full file you will see some configuration options for the mouseKeys. I suggest you <a href="https://kaleidoscope.readthedocs.io/en/latest/plugins/Kaleidoscope-MouseKeys.html">read the docs</a> and change them to your liking.</p>
+<h2 id="function-keys">Function keys</h2>
+<p>If you need them simply add them to where there is still some space (I have a few on the SUPER layer already). Or
+maybe you want to create a whole new layer or some more qukeys. It&rsquo;s up to you.</p>
+<p>I myself will probably add some (like F11) in the future whenever I miss one.</p>
+<h2 id="where-to-go-from-here">Where to go from here?</h2>
+<p>I hope this article gave you some inspiration to go out there and try to find your own perfect little layout.
+There is still a lot of optimization to be done and that&rsquo;s honestly the most fun aspect of the whole procedure.
+Go out and experiment. Try <a href="https://kaleidoscope.readthedocs.io/en/latest/plugins/Kaleidoscope-TapDance.html">tap-dance</a>
+or defining your own <a href="https://kaleidoscope.readthedocs.io/en/latest/plugins/Kaleidoscope-Macros.html">macros</a>. Read the
+damn documentation, and - of course - have a great day!</p>
+<h2 id="get-the-file">Get the file</h2>
+<p>The full file can be found on my github following <a href="https://github.com/TommyDittberner/keyboard-layout/blob/main/layout.ino">this link</a>.</p>
+
+    </div>
+</div>
+
+
+
+
+<div class="container">
+    
+    <nav class="flex container suggested">
+        
+
+        
+    </nav>
+    
+</div>
+</main>
+
+
+        </main>
+        <footer class="footer flex">
+    <section class="container">
+        <nav class="footer-links">
+            
+            
+            
+            
+            <a href="mailto:todi@tuta.io" target="_blank" rel="noreferrer" title="todi@tuta.io"
+               aria-label="email">
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm-.4 4.25l-7.07 4.42c-.32.2-.74.2-1.06 0L4.4 8.25c-.25-.16-.4-.43-.4-.72 0-.67.73-1.07 1.3-.72L12 11l6.7-4.19c.57-.35 1.3.05 1.3.72 0 .29-.15.56-.4.72z"/></svg>
+                <span style="padding-left: 0.5rem">email</span>
+            </a>
+            
+            
+            
+            <a href="https://github.com/t0d1" target="_blank" rel="noreferrer" title="github"
+               aria-label="github">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25" height="25" viewBox="0 0 24 24" version="1.1">
+<g id="surface3680">
+<path fill="currentColor" d="M 10.898438 2.101562 C 6.300781 2.601562 2.601562 6.300781 2.101562 10.800781 C 1.601562 15.5 4.300781 19.699219 8.398438 21.300781 C 8.699219 21.398438 9 21.199219 9 20.800781 L 9 19.199219 C 9 19.199219 8.601562 19.300781 8.101562 19.300781 C 6.699219 19.300781 6.101562 18.101562 6 17.398438 C 5.898438 17 5.699219 16.699219 5.398438 16.398438 C 5.101562 16.300781 5 16.300781 5 16.199219 C 5 16 5.300781 16 5.398438 16 C 6 16 6.5 16.699219 6.699219 17 C 7.199219 17.800781 7.800781 18 8.101562 18 C 8.5 18 8.800781 17.898438 9 17.800781 C 9.101562 17.101562 9.398438 16.398438 10 16 C 7.699219 15.5 6 14.199219 6 12 C 6 10.898438 6.5 9.800781 7.199219 9 C 7.101562 8.800781 7 8.300781 7 7.601562 C 7 7.199219 7 6.601562 7.300781 6 C 7.300781 6 8.699219 6 10.101562 7.300781 C 10.601562 7.101562 11.300781 7 12 7 C 12.699219 7 13.398438 7.101562 14 7.300781 C 15.300781 6 16.800781 6 16.800781 6 C 17 6.601562 17 7.199219 17 7.601562 C 17 8.398438 16.898438 8.800781 16.800781 9 C 17.5 9.800781 18 10.800781 18 12 C 18 14.199219 16.300781 15.5 14 16 C 14.601562 16.5 15 17.398438 15 18.300781 L 15 20.898438 C 15 21.199219 15.300781 21.5 15.699219 21.398438 C 19.398438 19.898438 22 16.300781 22 12.101562 C 22 6.101562 16.898438 1.398438 10.898438 2.101562 Z M 10.898438 2.101562 "/>
+</g>
+</svg>
+
+                <span style="padding-left: 0.5rem">github</span>
+            </a>
+            
+            
+            
+
+            
+            
+            <a href="/index.xml">RSS</a>
+            
+        </nav>
+    </section>
+    
+    <script async src="/js/features.min.b62bf47f0f66c325e42eaafd939e808dee870681ac887dc6afda32d43679f1a1.js"></script>
+</footer>
+
+    </body>
+</html>

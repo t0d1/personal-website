@@ -12,8 +12,8 @@ paginate = 6
 #     youtube =
 
 [[menu.header]]
-name = "About"
-url = "/about/"
+name = "Contact"
+url = "/contact/"
 weight = 100
 
 [[menu.header]]
