@@ -1,6 +1,6 @@
 baseURL = "https://example.org/"
 languageCode = "en-us"
-title = "getTommy()"
+title = "getTommy"
 paginate = 6
 
 [params]

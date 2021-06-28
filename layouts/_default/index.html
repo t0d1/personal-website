@@ -37,7 +37,7 @@
             <div class="project">
                 <div>
                     <a href="{{ .RelPermalink }}">
-                        <h3>{{ .Title }}</h3>
+                        <h3><a href="{{ .Params.repo }}" target="_blank" rel="noreferrer">{{ .Title }}</a></h3>
                     </a>
                     <div class="description">{{ .Params.description }}</div>
                 </div>
@@ -45,7 +45,6 @@
                     {{ if .Params.live }}
                     <a href="{{ .Params.link }}" class="button live" target="_blank" rel="noreferrer">Live</a>
                     {{ end }}
-                    <a href="{{ .Params.repo }}" class="button" target="_blank" rel="noreferrer">Source</a>
                 </div>
             </div>
             {{ end }}

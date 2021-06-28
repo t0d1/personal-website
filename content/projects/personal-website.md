@@ -1,7 +1,7 @@
 ---
 title: "getTommy"
 date: 2021-06-02
-description: My personal website built using Hugo
+description: My personal website built with Hugo
 weight: 1
 link: https://gettommy.com
 repo: https://github.com/t0d1/personal-website
